@@ -1,0 +1,58 @@
+.rules_container {
+    margin-top: 2rem;
+    row-gap: 4rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.rules_box {
+    row-gap: 4rem;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 3rem;
+    background-color: var(--primary-color);
+}
+
+.rules_box:hover {
+    opacity: 1;
+    transform: scale(1.09); 
+} 
+
+.rules_list {
+    row-gap: 1.5rem;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+.rules_list p {
+    color: white;
+    text-align: center;
+}
+
+.rules_btn_box {
+    display: flex;
+    justify-content: center;
+}
+
+.rules_btn_box .rules_btn {
+    margin: 0 10rem;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Lora', serif;
+    transition: all 0.4s ease-in-out;
+}
+
+.rules_btn_box .back:hover {
+    color: var(--red-color);
+    transition: all 0.4s ease-in-out;
+}
+
+.rules_btn_box .start:hover {
+    color: var(--blue-color);
+    transition: all 0.2s ease-in-out;
+}
