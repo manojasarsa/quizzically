@@ -7,12 +7,11 @@
 :root {
     --grey-secondary-color: #6b7280;
     --blue-color: blue;
+    --blur-color: rgba(255,255,255,0.301);
 }
 
 .body {
-    background-image: url("/images/light-desktop.jpg");
-    background-repeat: repeat-y;
-    background-size: cover;
+    background-color: var(--line-color);
 }
 
 * {
