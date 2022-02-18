@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Round");
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Tangerine&display=swap');
+
+:root {
+    --grey-secondary-color: #6b7280;
+    --blue-color: blue;
+}
+
+.body {
+    background-image: url("/images/light-desktop.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+/* Header */
+
+.main_header .navigation {
+    background-color: transparent;
+}
+
+.nav_center {
+    flex-basis: 25%;
+}
+
+header .header_logo {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    font-family: 'Lora', serif;
+}
+
+header .tagline {
+    font-family: 'Marck Script', cursive;
+    color: rgb(163, 89, 66);
+}
+
+header .search {
+    font-size: 0.8rem;
+    width: 100%;
+    padding: 0.5rem 0.6rem;
+    border-radius: 0;
+    border: none;
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.header .nav_right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 10%;
+}
+
+.header_btn {
+    font-size: 0.9rem;
+    border: 0;
+}
+
+header .nav_right i {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+header .nav_right span {
+    font-size: 0.8rem;
+    height: 1.5rem;
+    min-width: 1.5rem;
+    top: -1rem;
+}
+
+#header_box {
+    border: 0;
+}
+
+/* Categories */
+
+.top_heading {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: 'Lora', serif;
+}
+
+.top_subhead {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    font-family: 'Marck Script', cursive;
+}
+
+.categories {
+    display: flex;
+    column-gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+/* Cards */
+
+.card_vertical .card_vertical_info {
+    margin-bottom: 2rem;
+    border-radius: 1.5rem;
+    background-color: var(--grey-secondary-color);
+}
+
+.card_vertical .adjust_image {
+    height: 40vh;
+    width: 40vw;
+    object-fit: contain;
+    border-radius: 1.5rem;
+}
+
+.justify-align-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.card_title {
+    font-size: 1.3rem;
+    margin: 0.3rem 0;
+    color: var(--primary-color);
+}
+
+.card_subtitle {
+    font-size: 0.9rem;
+    color: var(--primary-color);
+}
+
+.play_btn {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0.5rem 0;
+    letter-spacing: 1.2;
+    color: var(--white-color);
+}
+
+.play_btn:hover {
+    color: var(--blue-color);
+    letter-spacing: 0.2rem;
+    transition: all 0.5s ease-in-out;
+}
