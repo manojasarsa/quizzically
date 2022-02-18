@@ -15,6 +15,10 @@
     background-size: cover;
 }
 
+* {
+    transition: all 0.7s ease-in-out;
+}
+
 /* Header */
 
 .main_header .navigation {
@@ -102,7 +106,13 @@ header .nav_right span {
 .card_vertical .card_vertical_info {
     margin-bottom: 2rem;
     border-radius: 1.5rem;
-    background-color: var(--grey-secondary-color);
+    background-color: black;
+    
+}
+
+.card_vertical .card_vertical_info:hover {
+    opacity: 1;
+    transform: scale(0.96);   
 }
 
 .card_vertical .adjust_image {
@@ -118,14 +128,15 @@ header .nav_right span {
 }
 
 .card_title {
-    font-size: 1.3rem;
+    font-size: 5rem;
     margin: 0.3rem 0;
-    color: var(--primary-color);
+    color: var(--white-color);
 }
 
 .card_subtitle {
     font-size: 0.9rem;
-    color: var(--primary-color);
+    color: var(--grey-color);
+    font-weight: 600;
 }
 
 .play_btn {
@@ -133,11 +144,11 @@ header .nav_right span {
     font-weight: 700;
     margin: 0.5rem 0;
     letter-spacing: 1.2;
-    color: var(--white-color);
+    color: var(--red-color);
 }
 
 .play_btn:hover {
-    color: var(--blue-color);
+    /* color: var(--blue-color); */
     letter-spacing: 0.2rem;
     transition: all 0.5s ease-in-out;
 }

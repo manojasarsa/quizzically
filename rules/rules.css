@@ -9,9 +9,14 @@
     row-gap: 4rem;
     justify-content: flex-start;
     align-items: center;
-    background-color: var(--grey-secondary-color);
     border-radius: 3rem;
+    background-color: var(--primary-color);
 }
+
+.rules_box:hover {
+    opacity: 1;
+    transform: scale(1.09); 
+} 
 
 .rules_list {
     row-gap: 1.5rem;
@@ -21,8 +26,11 @@
     font-weight: 600;
     margin-top: 2rem;
     padding: 2rem;
-    line-height: 2rem;
-    font-family: 'Lora', serif;
+}
+
+.rules_list p {
+    color: white;
+    text-align: center;
 }
 
 .rules_btn_box {
@@ -35,13 +43,16 @@
     color: var(--primary-color);
     font-size: 1.5rem;
     font-weight: 600;
-    transition: all 0.2s ease-in-out;
+    font-family: 'Lora', serif;
+    transition: all 0.4s ease-in-out;
 }
 
 .rules_btn_box .back:hover {
     color: var(--red-color);
+    transition: all 0.4s ease-in-out;
 }
 
 .rules_btn_box .start:hover {
     color: var(--blue-color);
+    transition: all 0.2s ease-in-out;
 }
