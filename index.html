@@ -5,51 +5,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="/homepage.css">
-    <link rel="stylesheet" href="https://zero-ui.netlify.app/docs/docs.css">
-
-    <script src="https://kit.fontawesome.com/b2c3fdb829.js" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="https://zero-ui.netlify.app/docs/main.css">
     <title>Quiz App</title>
 </head>
 
 <body class="body">
 
     <header class="main_header">
-        <div class="navigation" id="header_box">
+        <div class="navigation flex flex_justify_between flex_align_center" id="header_box">
             <div class="nav_center searchbar">
-                <input type="search" class="input input_search search" placeholder="Search" />
+                <input type="search" class="input input_search search" placeholder="Search for quizzes" />
             </div>
-            <div class="nav_right">
+            <div class="nav_right flex flex_justify_between flex_align_center">
 
-                <a class="btn btn_primary" href="#">Login</a>
-
+                <a class="btn btn_primary" href="/auth/login.html">Login</a>
                 <div class="badge_container badge_icon">
                     <a href="#">
                         <i class="fas fa-user-circle"></i>
                     </a>
                 </div>
+
             </div>
         </div>
     </header>
 
-
     <h1 class="top_heading">QUIZ APP</h1>
     <span class="top_subhead">Unlock Knowledge At The Speed Of Thought...</span>
 
-    <div class="categories justify-align-center">
+    <div class="categories flex flex_wrap flex_justify_center flex_align_center">
 
         <div class="card_image">
             <div class="card_vertical">
-                <div class="card_vertical_info flex_column">
+                <div class="card_vertical_info flex flex_col">
                     <img class="img_responsive adjust_image" src="/images/f2.png" alt="shopping-item">
 
-                    <div class="justify-align-center flex_column">
+                    <div class="flex_justify_center flex_align_center flex flex_col">
                         <h2 class="card_title">SPORTS</h2>
 
                         <p class="card_subtitle">
@@ -64,10 +55,10 @@
 
         <div class="card_image">
             <div class="card_vertical">
-                <div class="card_vertical_info flex_column">
+                <div class="card_vertical_info flex flex_col">
                     <img class="img_responsive adjust_image" src="/images/dev3.jpg" alt="shopping-item">
 
-                    <div class="justify-align-center flex_column">
+                    <div class="flex_justify_center flex_align_center flex flex_col">
                         <h2 class="card_title">WEB DEVELOPMENT</h2>
 
                         <p class="card_subtitle">

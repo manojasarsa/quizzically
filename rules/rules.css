@@ -1,16 +1,12 @@
 .rules_container {
     margin-top: 2rem;
     row-gap: 4rem;
-    justify-content: flex-start;
-    align-items: center;
 }
 
 .rules_box {
     row-gap: 4rem;
-    justify-content: flex-start;
-    align-items: center;
     border-radius: 3rem;
-    background-color: rgba(255,255,255,0.301);
+    background-color: var(--info-background-color);
     backdrop-filter: blur(4px);
 }
 
@@ -21,10 +17,8 @@
 
 .rules_list {
     row-gap: 1.5rem;
-    justify-content: center;
-    align-items: flex-start;
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: var(--fw-semi-bold);
     margin-top: 2rem;
     padding: 2rem;
 }
@@ -34,26 +28,20 @@
     text-align: center;
 }
 
-.rules_btn_box {
-    display: flex;
-    justify-content: center;
-}
-
 .rules_btn_box .rules_btn {
     margin: 0 10rem;
     color: var(--primary-color);
     font-size: 1.5rem;
-    font-weight: 600;
-    font-family: 'Lora', serif;
+    font-weight: var(--fw-semi-bold);
     transition: all 0.4s ease-in-out;
 }
 
 .rules_btn_box .back:hover {
     color: var(--red-color);
-    transition: all 0.4s ease-in-out;
+    transition: var(--trans-4);
 }
 
 .rules_btn_box .start:hover {
     color: var(--blue-color);
-    transition: all 0.2s ease-in-out;
+    transition: var(--trans-2);
 }
