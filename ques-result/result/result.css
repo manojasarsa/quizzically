@@ -1,0 +1,23 @@
+.options .correct {
+    background-color: var(--success-color);
+}
+
+.options .wrong {
+    background-color: var(--alert-color);
+}
+
+.ques_container {
+    height: fit-content;
+}
+
+.no_hover{
+    pointer-events: none;
+}
+
+.ques_heading {
+    margin: 1rem 0;
+}
+
+.ques_btn_box {
+    justify-content: center;
+}
