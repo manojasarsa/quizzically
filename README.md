@@ -1,7 +1,7 @@
 # quizzically-app
  A Quiz App which includes various categories. 
 
- Key Features:
+ Key Components:
 
  * Home Page
  * Quizzes by Category
