@@ -57,8 +57,6 @@
 }
 
 .ques_btn_box {
-    /* display: flex;
-    justify-content: space-between; */
     padding: 2rem 0;
     color: var(--primary-color);
     font-size: 1.5rem;

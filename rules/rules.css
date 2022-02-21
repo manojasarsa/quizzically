@@ -1,6 +1,6 @@
 .rules_container {
-    margin-top: 2rem;
     row-gap: 4rem;
+    margin: 2rem auto;
 }
 
 .rules_box {
