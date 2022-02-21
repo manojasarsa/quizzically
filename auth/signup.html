@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/auth/auth.css">
+    <link rel="stylesheet" href="/homepage.css">
+    <link rel="stylesheet" href="https://zero-ui.netlify.app/docs/main.css">
+    <title>SignUp</title>
+</head>
+
+<body class="body">
+
+    <header class="main_header">
+        <div class="navigation flex flex_justify_between flex_align_center" id="header_box">
+            <div class="nav_center searchbar">
+                <input type="search" class="input input_search search" placeholder="Search for quizzes" />
+            </div>
+            <div class="nav_right flex flex_justify_between flex_align_center">
+
+                <a class="btn btn_primary" href="/auth/login.html">Login</a>
+                <div class="badge_container badge_icon">
+                    <a href="#">
+                        <i class="fas fa-user-circle"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </header>
+        
+    <div class="input_container flex flex_col">
+        <form class="input_field flex flex_col">
+            <h2 class="input_heading">Signup</h2>
+            <label class="input_label">Email address</label>
+            <input class="input_box" type="email" placeholder="manoj@neog.camp" required />
+            <label class="input_label">Create Password</label>
+            <input class="input_box" type="name" placeholder="***********" required />
+            <div class="inp_checkbox flex flex_justify_start flex_align_center">
+                <input type="checkbox" class="input_checkbox"> 
+                <p class="checkbox_notify">I accept all Terms & Conditions</p>
+            </div>
+            </p> 
+            <button class="btn btn_primary">Create New Account</button>
+            <p class="input_subheading"><a href="/auth/login.html" id="input_subheading">Already have an account ></a> 
+        </form>
+    </div>
+        
+</body>
+</html>

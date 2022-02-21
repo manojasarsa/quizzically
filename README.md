@@ -10,3 +10,10 @@
  * Result Page with Answers & Score
  * Search Quiz
  * Quit Quiz
+ * Timer for Quiz Questions
+ * Authentication 
+    - Login
+    - SignUp
+    - Logout
+    - Forgot Password
+

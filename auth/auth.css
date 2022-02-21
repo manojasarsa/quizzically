@@ -1,0 +1,57 @@
+.body .input_container {
+    margin: 0 auto;
+    margin-top: 5rem;
+    padding-bottom: 1rem;
+    background-color:  var(--info-background-color);
+    box-shadow: none;
+}
+
+.input_container:hover {
+    opacity: 1;
+    transform: scale(1.10);
+}
+
+#input_subheading {
+    color: var(--primary-color);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+#login_button {
+    color: var(--white-color);
+}
+
+form .inp_checkbox {
+    column-gap: 0.6rem;
+}
+
+.checkbox_notify {
+    padding-top: 1.1rem;
+    font-size: 0.9rem;
+}
+
+/* logout */
+
+.logout_container {
+    margin-top: 10rem;
+}
+
+.logout_box { 
+    width: 40rem;
+    height: 20rem;
+    margin: 0 auto;
+    border: 1px solid var(--primary-color);
+}
+
+.logout_text {
+    margin: 1rem;
+}
+
+.logout_box .link {
+    color: var(--priamry-color);
+    font-size: 1.5rem;
+}
+
+.logout_box .link:hover {
+    color: var(--blue-color);
+}
