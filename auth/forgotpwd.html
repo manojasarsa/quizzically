@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/auth/auth.css">
     <link rel="stylesheet" href="/homepage.css">
+    <link rel="stylesheet" href="/ques-result/ques/ques.css">
     <link rel="stylesheet" href="/user-profile/user-profile.css">
     <link rel="stylesheet" href="https://zero-ui.netlify.app/docs/main.css">
     <title>Forgot Password</title>
@@ -34,7 +35,7 @@
                             <a class="menu_link" href="/"><li class="profile_content">Home</li> </a>
                             <a class="menu_link" href="#"><li class="profile_content">Quiz Board</li> </a>
                             <a class="menu_link" href="#"><li class="profile_content">Create Quiz</li> </a>
-                            <a class="menu_link" href="#"><li class="profile_content">Share Quiz</li> </a>
+                            <a class="menu_link" href="#"><li class="profile_content modal_btn_live" id="modal_btn_live" >Share Quiz</li> </a>
                             <a class="menu_link" href="#"> <li class="profile_content">Play with others</li></a>
                             <a class="menu_link" href="/auth/forgotpwd.html" ><li class="profile_content">Forgot Password</li> </a>
                             <a class="menu_link" href="/auth/logout.html"><li class="profile_content">Logout</li> </a>
@@ -59,6 +60,24 @@
             <p class="input_subheading"><a href="/auth/signup.html" id="input_subheading">Create New Account ></a> 
         </form>
     </div>
+
+    <!-- Share Quiz -->
+
+    <div class="modal_box flex_justify_center flex_align_center" id="modal_box">
+        <div class="modal flex flex_col flex_justify_center flex_align_center">
+
+            <h3>Use the below link to share quiz :</h3>
+            <div class="timer_box">
+                <span class="timer">https://quizzically.com/admin/quiz/60d407de2740d9bf0 <span class="timeleft"> Copy Link</span></span>
+            </div>
+
+            <div class="modal_btn_container">
+                <button class="btn btn_primary modal_btn_close" id="modal_btn_close">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/javascript/share-quiz.js"></script>
     <script src="/javascript/user-profile.js"></script>
 
 </body>
