@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/auth/auth.css">
+    <link rel="stylesheet" href="/homepage.css">
+    <link rel="stylesheet" href="/user-profile/user-profile.css">
+    <link rel="stylesheet" href="https://zero-ui.netlify.app/docs/main.css">
+    <title>Login</title>
+</head>
+
+<body class="body">
+
+    <header class="main_header">
+        <div class="navigation flex flex_justify_between flex_align_center" id="header_box">
+            <div class="nav_center searchbar">
+                <input type="search" class="input input_search search" placeholder="Search for quizzes" />
+            </div>
+            <div class="nav_right flex flex_justify_between flex_align_center">
+                
+                <a class="badge_container badge_icon">
+                    <i class="fas fa-user-circle profile"></i>
+                </a>
+
+                <div class="profile_box profile_menu flex_col">
+                    <div class="profile_options">
+                        <ul class="menu flex flex_col flex_justify_center flex_align_start">
+                            <div class="flex flex_row flex_justify_around flex_align_center">
+                                <h3>New to Quizzically?</h3>
+                                <a class="btn btn_primary" href="/auth/signup.html">Sign Up</a>
+                            </div>
+                            <a class="menu_link" href="/"><li class="profile_content">Home</li> </a>
+                            <a class="menu_link" href="#"><li class="profile_content">Quiz Board</li> </a>
+                            <a class="menu_link" href="#"><li class="profile_content">Create Quiz</li> </a>
+                            <a class="menu_link" href="#"><li class="profile_content">Share Quiz</li> </a>
+                            <a class="menu_link" href="#"> <li class="profile_content">Play with others</li></a>
+                            <a class="menu_link" href="/auth/forgotpwd.html" ><li class="profile_content">Forgot Password</li> </a>
+                            <a class="menu_link" href="/auth/logout.html"><li class="profile_content">Logout</li> </a>
+                        </ul>
+                    </div>
+                </div>
+
+                <a class="btn btn_primary" href="/auth/login.html">Login</a>
+
+            </div>
+        </div>
+    </header>
+
+    <div class="profile_wrapper flex flex_row flex_justify_center flex_align_center">
+
+        <div class="card_image flex">
+            <div class="card_vertical">
+                <div class="card_vertical_info flex flex_col flex_justify_start flex_wrap">
+                    <img class="img_responsive adjust_image" src="/images/pp.svg" alt="shopping-item">
+                    <p class="card_text ">John Wills</p>
+                    <p class="card_text ">Bonus Booster</p>
+                    <p class="card_text ">Rank 22</p>
+                    <p class="card_text card_price left_space">
+                        <span class="text_line_through"></span>
+                    </p>
+                    <button class="btn btn_secondary">Edit Profile</button>
+                    <span class="pill">Lv 6</span>
+                </div>
+            </div>
+        </div>
+    
+        <div class="quiz_profile_details flex flex_col flex_justify_start flex_align_center">
+
+            <div class="card_container flex flex_row flex_align_between">
+                <h3 class="card_title">Achievements  <span class="quiz_points">8</span></h3>
+                <h3 class="card_title">Inventory  <span class="quiz_points">5</span></h3>
+                <h3 class="card_title">Quiz Wins  <span class="quiz_points">25</span></h3>
+                <h3 class="card_title">Highest Score  <span class="quiz_points">910</span></h3>
+                <h3 class="card_title">Correct Answers  <span class="quiz_points">218</span></h3>
+            </div>
+
+            <div class="profile_edit flex flex_col flex_justify_center flex_align_center">
+
+                <h2 class="lines">Profile Details</h2>
+
+                <div class="edit_list flex flex_col flex_justify_center flex_align_start">
+
+                    <!-- details divs -->
+                    <div class="profile_details flex flex_row ">
+                        <span>Full Name:</span>
+                        <span>John Wills</span>
+                    </div>
+                    
+                    <div class="profile_details flex flex_row flex_justify_between">
+                        <span>Email ID:</span>
+                        <span>johnwills@xyz.com</span>
+                    </div>
+                    <div class="profile_details flex flex_row flex_justify_between flex_align_start">
+                        <span>Gender:</span>
+                        <span>MALE</span>
+                    </div>
+                    <div class="profile_details flex flex_row flex_justify_between">
+                        <span>Address:</span>
+                        <span>36, China Town, New York</span>
+                    </div>   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/javascript/user-profile.js"></script>
+         
+</body>
+</html>

@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/homepage.css">
+    <link rel="stylesheet" href="/user-profile/user-profile.css">
     <link rel="stylesheet" href="https://zero-ui.netlify.app/docs/main.css">
     <title>quizzically App</title>
 </head>
@@ -19,12 +20,29 @@
             </div>
             <div class="nav_right flex flex_justify_between flex_align_center">
 
-                <a class="btn btn_primary" href="/auth/login.html">Login</a>
-                <div class="badge_container badge_icon">
-                    <a href="#">
-                        <i class="fas fa-user-circle"></i>
-                    </a>
+                <a class="badge_container badge_icon">
+                    <i class="fas fa-user-circle profile"></i>
+                </a>
+
+                <div class="profile_box profile_menu flex_col">
+                    <div class="profile_options">
+                        <ul class="menu flex flex_col flex_justify_center flex_align_start">
+                            <div class="flex flex_row flex_justify_around flex_align_center">
+                                <h3>New to Quizzically?</h3>
+                                <a class="btn btn_primary" href="/auth/signup.html">Sign Up</a>
+                            </div>
+                            <a class="menu_link" href="/user-profile/user-profile.html" ><li class="profile_content">Your Profile</li> </a>
+                            <a class="menu_link" href="#"><li class="profile_content">Quiz Board</li> </a>
+                            <a class="menu_link" href="#"><li class="profile_content">Create Quiz</li> </a>
+                            <a class="menu_link" href="#"><li class="profile_content">Share Quiz</li> </a>
+                            <a class="menu_link" href="#"> <li class="profile_content">Play with others</li></a>
+                            <a class="menu_link" href="/auth/forgotpwd.html" ><li class="profile_content">Forgot Password</li> </a>
+                            <a class="menu_link" href="/auth/logout.html"><li class="profile_content">Logout</li> </a>
+                        </ul>
+                    </div>
                 </div>
+
+                <a class="btn btn_primary" href="/auth/login.html">Login</a>
 
             </div>
         </div>
@@ -71,6 +89,7 @@
             </div>
         </div>
     </div>
+    <script src="/javascript/user-profile.js"></script>
 
 </body>
 </html>
