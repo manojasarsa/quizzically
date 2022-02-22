@@ -16,4 +16,5 @@
     - SignUp
     - Logout
     - Forgot Password
+ * Remember me while login
 
