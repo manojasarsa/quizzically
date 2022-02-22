@@ -1,0 +1,80 @@
+.profile_wrapper {
+    margin: 0 auto;
+}
+
+.profile_wrapper .card_vertical_info {
+    background-color: var(--info-background-color);
+}
+
+.profile_wrapper .card_text {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.card_container .card_title {
+    color: var(--primary-color)
+}
+
+.card_container {
+    gap: 2rem;
+}
+
+.quiz_points {
+    font-weight: var(--fw-bold);
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+}
+
+.profile_edit {
+    margin: 0 0 2rem 5rem;
+}
+
+.edit_list {
+    text-align: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.profile_details {
+    gap: 1rem;
+    margin: 0 2rem;
+}
+
+.edit_list a {
+    width: 80%;
+    align-self: center;
+}
+
+.pr_menu {
+    font-size: 2rem;
+}
+
+.quick_links .menu_link {
+    font-size: 1.2rem;
+}
+
+/* Profile menu */
+.profile_menu {
+    padding: 1rem;
+    position: absolute;
+    top: 5rem;
+    right: 3rem;
+    background-color: var(--info-background-color);
+    display: none;
+    z-index: 5;
+}
+
+.display_profile {
+    display: flex;
+}
+
+.menu {
+    gap: 1rem;
+    font-size: 0.8rem;
+}
+
+.menu .menu_link {
+    color: var(--primary-color);
+    font-weight: var(--fw-bold);
+}

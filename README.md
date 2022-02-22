@@ -17,4 +17,5 @@
     - Logout
     - Forgot Password
  * Remember me while login
+ * User Profile Page
 
