@@ -77,3 +77,22 @@
     color: var(--blue-color);
     transition: all 0.1s ease-in-out;
 }
+
+.timer_box {
+    text-align: end;
+    margin-bottom: 1rem;
+}
+
+.timer {
+    background-color: var(--info-background-color);
+    color: var(--primary-color);
+    padding: 0.5rem;
+    font-weight: var(--fw-bold);
+}
+
+.timeleft {
+    padding: 0.1rem;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    font-weight: var(--fw-bold);
+}
